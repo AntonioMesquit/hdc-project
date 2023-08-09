@@ -36,6 +36,9 @@ nav {
     text-decoration: none;
     color: white;
 }
+main{
+    height: 2500px;
+}
 .a2{
    color: white;
    text-decoration: none;
@@ -93,7 +96,7 @@ nav {
     margin-bottom: 15px;
 }
 .px{
-    color: rgb(160, 153, 153);;
+    color: rgb(160, 153, 153);
 }
 .card2{
     display: flex;
@@ -114,6 +117,8 @@ nav {
 .box-container2{
    display: flex;
    justify-content: space-evenly;
+   margin-bottom: 100px;
+
 }
 .caixa1{
     display: flex;
@@ -126,7 +131,7 @@ nav {
     color: white;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.475);
 }
 .value{
     display: flex;
@@ -135,6 +140,7 @@ nav {
     color: #8338EC;
     font-size: 20px;
     align-items: center;
+    justify-content: center ;
 }
 .mes{
     font-size: 15px;
@@ -154,9 +160,26 @@ nav {
     background-color: #8335f0;
     border-radius: 10px;
 }
+.butin:hover{
+    transition: 1s;
+    background-color: #8335f06e;
+    cursor: pointer;
+    
+}
 .xi{
     color: white;
     text-decoration: none;
     padding: 15px;
    
+}
+.un{
+    display: flex;
+    align-items: center;
+    color: white;
+    word-spacing: 5px;
+    color: #8338EC;
+    text-shadow: 2px 2px 2px #ccc7d31e;
+}
+.ttitle1{
+    font-size: 20px;
 }
