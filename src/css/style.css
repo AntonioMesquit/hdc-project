@@ -61,7 +61,7 @@ main{
 }
 .text1{
     position: absolute;
-    min-height: 50vh;
+    min-height: 40vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
