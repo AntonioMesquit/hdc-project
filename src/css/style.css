@@ -1,3 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
 /*font-family: 'Outfit', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Outfit', sans-serif;
+    height: 100vh;
+    background-color: rgb(20, 31, 65);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #232931;
+    
+}
+.image1{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+
+}
+.join{
+    background-color: green;
+}
+nav {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.a1{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+.a2{
+   color: white;
+   text-decoration: none;
+   margin-right: 40px;
+   padding: 15px;
+   background-color: #2bc86aa1;
+   border-radius: 10px;
+}
+.card{
+    text-align: center;
+}
+.imagem2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    position: absolute;
+    min-height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-h1{
+    color: white;
+    font-weight: 600;
+}
+.text-h2{
+    font-weight: 300;
+    color: white;
+}
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 200px;
+}
+.box1, .box2, .box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    color: white;
+    background-color: rgb(17, 26, 54);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.455);
+}
+
+.tx{
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+}
+.px{
+    color: rgb(160, 153, 153);;
+}
+.card2{
+    display: flex;
+    justify-content: center;
+
+}
+.texto1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(17, 26, 54);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.455);
+    margin-bottom: 50px;
+}
+.box-container2{
+   display: flex;
+   justify-content: space-evenly;
+}
+.caixa1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.back{
+    background-color: rgb(30, 17, 61);
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+}
+.value{
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #8338EC;
+    font-size: 20px;
+    align-items: center;
+}
+.mes{
+    font-size: 15px;
+    padding-left: 5px;
+    color: #512294a5; 
+}
+.pp2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.butin{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: #8335f0;
+    border-radius: 10px;
+}
+.xi{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+   
+}
