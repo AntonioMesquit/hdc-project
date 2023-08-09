@@ -355,8 +355,9 @@ footer{
 
 .ani:hover {
     color: white;
-    font-weight: 300;
-    transform: translateY(-3px);
+    font-weight: 600;
+    transform: translateY(-5px);
+    
 }
 
 .ani:hover::before {
@@ -438,10 +439,11 @@ footer{
         width: 200px;
     }
     .but2{
-        width: 100px;
+        width: 120px;
     }
     .text1{
         font-size: 12px;
         min-height: 30vh;
+  
     }
 }
