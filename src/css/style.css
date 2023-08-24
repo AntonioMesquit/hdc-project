@@ -6,6 +6,20 @@
     padding: 0;
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: rgba(62, 28, 141, 0.637);
+    height: 10px;
+    border-radius: 15px;
+}
+
+
 body{
     font-family:'Outfit', sans-serif;
     height: 100vh;
@@ -269,6 +283,14 @@ padding: 20px;
     margin-bottom: 10px;
     font-weight: 300;
 }
+
+
+
+
+
+
+
+
 .l2{
     margin-bottom: 15px;
     color: rgb(160, 153, 153);
